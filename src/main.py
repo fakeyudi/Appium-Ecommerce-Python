@@ -3,14 +3,6 @@ from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.common.appiumby import AppiumBy
 
-# # from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# import time
-from appium.webdriver.common.touch_action import TouchAction
-
-# Options are only available since client version 2.3.0
-
 
 desired_cap = {
 	"platformName" : "android",
